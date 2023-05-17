@@ -207,13 +207,12 @@ main p {
 }
 
 footer {
-  min-height: 150px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: var(--gunmetal);
-    padding: 12px;
+    padding: 24px 8px;
     font-size: var(--medium);
     color: white;
     gap: 20px;
