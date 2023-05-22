@@ -1,0 +1,124 @@
+:root {
+    --dark-jungle-green: #002029;
+    --dark-jungle-green-transparency: #3D002029;
+    --gunmetal: #00303D;
+    --midnight-green: #004052;
+    --eagle-green: #005066;
+    --blue-sapphire: #00607A;
+    --xlg: 3.2rem;
+    --lg: 2.6rem;
+    --medium: 2rem;
+    --short-transition-time: 0.2s;
+    --normal-transition-time: 0.5s;
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+    font-size: var(--medium);
+    font-size: 62.5%;
+    font-family: 'Silkscreen', cursive;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--dark-jungle-green);
+    color: white;
+    font-size: var(--medium);
+  }
+  
+  h1 {
+    font-size: var(--medium);
+    font-weight: 700;
+    margin: 20px auto;
+  }
+
+  #alert-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  p {
+    margin-bottom: var(--medium);
+    text-align: center;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  .about-me {
+    padding: 3rem 0;
+    background-color: var(--midnight-green);
+    text-align: center;
+  }
+  
+  .heading {
+    color: white;
+    font-size: var(--medium);
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  .paragraph {
+    margin-bottom: var(--medium);
+    text-align: center;
+  }
+  
+  .portfolio {
+    padding: 3rem 0;
+    background-color: var(--eagle-green);
+    text-align: center;
+  }
+  
+  .list {
+    list-style-type: none;
+    margin-left: 0;
+    text-align: center;
+  }
+  
+  .item {
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  .link {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  .testimonials {
+    padding: 3rem 0;
+    background-color: var(--blue-sapphire);
+    text-align: center;
+  }
+  
+  .alert-text {
+    color: white;
+    font-size: var(--medium);
+    font-weight: 600;
+    background-color: var(--gunmetal);
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    text-align: center;
+  }
+  
+  .quote {
+    border-left: 5px solid white;
+    padding-left: 1rem;
+    text-align: center;
+  }
+  
+  .highlight {
+    color: white;
+  }

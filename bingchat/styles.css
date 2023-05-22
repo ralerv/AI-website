@@ -1,0 +1,84 @@
+:root {
+    --dark-jungle-green: #002029;
+    --dark-jungle-green-transparency: #3D002029;
+    --gunmetal: #00303D;
+    --midnight-green: #004052;
+    --eagle-green: #005066;
+    --blue-sapphire: #00607A;
+    --xlg: 3.2rem;
+    --lg: 2.6rem;
+    --medium: 2rem;
+    --short-transition-time: 0.2s;
+    --normal-transition-time: 0.5s;
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+    font-family: 'Silkscreen', cursive;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+  }
+
+  .about-me, .education, .projects, .skills{
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about-me{
+    background-color: var(--dark-jungle-green);
+  }
+
+  .about-me__title{
+    font-size: var(--xlg);
+  }
+  
+  .about-me__description{
+    font-size: var(--medium);
+  }
+  
+  .education__title{
+    font-size: var(--xlg);
+  }
+  
+  .education__item{
+    font-size: var(--medium);
+  }
+  
+  .skills__title{
+    font-size: var(--xlg);
+  }
+  
+  .skills__item{
+    font-size: var(--medium);
+  }
+  
+  .projects__title{
+    font-size: var(--xlg);
+  }
+  
+  .projects__item{
+    font-size: var(--medium);
+  }
+
+  .education{
+    background-color: var(--gunmetal);
+  }
+  
+  .skills{
+    background-color: var(--midnight-green);
+  }
+  
+  .projects{
+    background-color: var(--eagle-green);
+  }
