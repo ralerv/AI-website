@@ -122,3 +122,110 @@
   .highlight {
     color: white;
   }
+
+
+  main p {
+    margin: 0;
+    padding: 0;
+    background-color: var(--eagle-green);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: var(--medium);
+  }
+  
+  .main-social-tree {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--blue-sapphire);
+  }
+  
+  .main-social-tree p {
+    font-size: var(--medium);
+    background-color: var(--blue-sapphire);
+    height: 100%;
+  }
+  
+  .main-social-tree .social-list {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    row-gap: 28px;
+    padding: 20px 0;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .main-social-tree .social-list li {
+    height: 100%;
+    max-height: 56px;
+    display: grid;
+  }
+  
+  .main-social-tree .social-list li .social-list--link {
+    place-self: center;
+    display: inline-block;
+    max-width: 150px;
+    height: 100%;
+    max-height: 56px;
+  }
+  
+  .social-list--pageweb {
+    width: 100%;
+    min-width: 184px;
+    text-decoration: none;
+    border: none;
+    background-color: var(--dark-jungle-green);
+    color: white;
+    border-radius: 8px;
+  }
+  
+  .social-list--pageweb span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+  }
+  
+  .img-span {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .img-span img {
+    max-width: 56px;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+  }
+  
+  .social-list--pageweb img {
+    aspect-ratio: 1/1;
+    max-width: 90px;
+  }
+  
+  footer {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: var(--gunmetal);
+      padding: 24px 8px;
+      font-size: var(--medium);
+      color: white;
+      gap: 20px;
+  }
+  
+  footer p:first-child {
+    width: 40vw;
+  }
+  
+  footer p:last-child {
+    text-align: end;
+  }
